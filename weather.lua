@@ -7,8 +7,8 @@ apid = "9f418d12e2c0f5e721197b55a91010a3" -- Put you own API code here
 
 wifi.setmode(wifi.STATIONAP)
 station_cfg={}
-station_cfg.ssid="VM3980916" -- Put you own here
-station_cfg.pwd="xcmz5qgVbjsh"   -- Put you own here
+station_cfg.ssid="Wifi Name" 
+station_cfg.pwd="Password"
 station_cfg.save=true
 wifi.sta.config(station_cfg)
 cfg={ip="192.168.0.50",netmask="255.255.255.0",gateway="192.168.0.1"}
